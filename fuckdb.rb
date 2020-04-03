@@ -1,6 +1,5 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Fuckdb < Formula
   desc "From database generate go struct,help you fuck db fileds."
   homepage "https:github.com/hantmac/fuckdb"
