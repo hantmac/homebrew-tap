@@ -5,7 +5,7 @@ class Fuckdb < Formula
   homepage "https:github.com/hantmac/fuckdb"
   url "https://github.com/hantmac/fuckdb/releases/download/v0.3/fuckdb_macos.tar.gz"
   version "0.3"
-  sha256 "5bb3550c9967c39d9e86ef52397ffbaba3468d2a7e06de918e9f9193a3981dee"
+  sha256 "20551fda4a0f09d8e17e29f14d9a3c940427a05b6357707d8089d797ad9dd290"
 # depends_on "cmake" => :build
 
   def install
