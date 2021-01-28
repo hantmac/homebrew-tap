@@ -4,7 +4,7 @@
 class Tmax < Formula
   desc "`tmax`  is a powerful tool to help you get terminal cmd directly."
   homepage "https://github.com/hantmac/tmax"
-  version "v0.0.1"
+  version "v0.1.0"
   url "https://github.com/hantmac/tmax/archive/0.0.1.tar.gz"
   sha256 "e68483a569ae2e7f81a33d8bb8836f18179ad926f384c130f6e9dba9bc9dbe7a"
   license "Apache-2.0"
@@ -17,7 +17,6 @@ class Tmax < Formula
     # Remove unrecognized options if warned by configure
     ENV["GOPROXY"] = "https://goproxy.io"
     system "make"
-    bin.install "bin/tmax"
     bin.install "bin/tmax"
     # system "cmake", ".", *std_cmake_args
   end
