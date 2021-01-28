@@ -17,7 +17,7 @@ class Tmax < Formula
     # Remove unrecognized options if warned by configure
     ENV["GOPROXY"] = "https://goproxy.io"
     system "make"
-    bin.install "bin/tmax"
+    bin.install "tmax"
     # system "cmake", ".", *std_cmake_args
   end
 
